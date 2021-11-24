@@ -15,10 +15,6 @@ export const stepData: Record<
   },
   factorio: {
     solution: "7355608",
-    redirectTo: "/",
-  },
-  reward: {
-    solution: "123456",
     redirectTo: "the_end_or_is_it",
   },
 };

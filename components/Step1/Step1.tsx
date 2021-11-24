@@ -23,7 +23,7 @@ export const Step1 = () => {
 
       <Fade delay={1500} duration={2000}>
         <div className={styles.textBox}>
-          TODO Gravity Falls Placeholder Text
+          TODO Gravity Falls Placeholder Text Solution: 618
         </div>
       </Fade>
 

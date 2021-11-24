@@ -22,7 +22,7 @@ export const Step2 = () => {
       <Fade delay={1500} duration={2000}>
         <div className={styles.textBox}>
           TODO Dipper and Maple are trapped etc etc you need to go to block
-          world etc etc
+          TEMPORARY Solution 123456 world etc etc
         </div>
       </Fade>
 
