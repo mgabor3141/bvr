@@ -4,11 +4,11 @@ import Fade from "react-reveal/Fade";
 // @ts-expect-error no types
 import HeadShake from "react-reveal/HeadShake";
 import { useCode } from "../../hooks/useCode";
-import styles from "./Step1.module.css";
+import styles from "./Step2.module.css";
 
 const SOLUTION_LENGTH = 6;
 
-export const Step1 = () => {
+export const Step2 = () => {
   const { shake, setCode } = useCode(SOLUTION_LENGTH);
 
   return (
