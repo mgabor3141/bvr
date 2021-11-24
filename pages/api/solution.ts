@@ -11,6 +11,10 @@ export const stepData: Record<
   },
   step2: {
     solution: "123456",
+    redirectTo: "it_must_grow",
+  },
+  factorio: {
+    solution: "7355608",
     redirectTo: "/",
   },
   reward: {
