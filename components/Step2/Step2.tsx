@@ -9,7 +9,7 @@ import styles from "./Step2.module.css";
 const SOLUTION_LENGTH = 6;
 
 export const Step2 = () => {
-  const { shake, setCode } = useCode(SOLUTION_LENGTH);
+  const { shake, setCode } = useCode(SOLUTION_LENGTH, "step2");
 
   return (
     <>
