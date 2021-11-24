@@ -3,8 +3,8 @@ import AuthCode from "react-auth-code-input";
 import Fade from "react-reveal/Fade";
 // @ts-expect-error no types
 import HeadShake from "react-reveal/HeadShake";
-import { useCode } from "../../hooks/useCode";
-import { BpBox } from "../BpBox/BpBox";
+import { useCode } from "../../../hooks/useCode";
+import { BpBox } from "../../BpBox/BpBox";
 import styles from "./Factorio.module.css";
 
 const SOLUTION_LENGTH = 7;

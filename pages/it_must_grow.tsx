@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import { Black } from "../components/backgrounds/Black/Black";
-import { Factorio } from "../components/Factorio/Factorio";
 import PageWrapper from "../components/PageWrapper";
+import { Factorio } from "../components/steps/Factorio/Factorio";
 
 const Page: NextPage = () => (
   <Black>

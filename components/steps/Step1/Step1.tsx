@@ -3,31 +3,32 @@ import AuthCode from "react-auth-code-input";
 import Fade from "react-reveal/Fade";
 // @ts-expect-error no types
 import HeadShake from "react-reveal/HeadShake";
-import { useCode } from "../../hooks/useCode";
-import styles from "./Step2.module.css";
+import { useCode } from "../../../hooks/useCode";
+import styles from "./Step1.module.css";
 
-const SOLUTION_LENGTH = 6;
+const SOLUTION_LENGTH = 3;
 
-export const Step2 = () => {
-  const { shake, setCode } = useCode(SOLUTION_LENGTH, "step2");
+export const Step1 = () => {
+  const { shake, setCode } = useCode(SOLUTION_LENGTH, "step1");
 
   return (
     <>
       <h1 className={styles.title}>
+        Welcome to
+        <br />
         <Fade top delay={500} duration={1500}>
-          Oh no!
+          Beavermageddon
         </Fade>
       </h1>
 
       <Fade delay={1500} duration={2000}>
         <div className={styles.textBox}>
-          TODO Dipper and Maple are trapped etc etc you need to go to block
-          TEMPORARY Solution 123456 world etc etc
+          TODO Gravity Falls Placeholder Text Solution: 618
         </div>
       </Fade>
 
       <div className={styles.codeEntryContainer}>
-        <Fade top delay={3500} duration={1500}>
+        <Fade top delay={5000} duration={3000}>
           <HeadShake when={shake}>
             <AuthCode
               onChange={setCode}
