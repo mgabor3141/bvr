@@ -16,7 +16,9 @@ export const Factorio = () => {
     <>
       <h1 className={styles.title}>
         <Fade top delay={500} duration={1500}>
-          Dipper and Maple are in another castle
+          Dipper and Maple
+          <br />
+          are in another castle
         </Fade>
       </h1>
 

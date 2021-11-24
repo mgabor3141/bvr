@@ -16,93 +16,41 @@
     flex-grow: 1;
     font-family: monospace;
     color: #333;
-    padding: 8px;
-    padding-right: 0;
+    padding: 8px 0 8px 8px;
     box-sizing: border-box;
     background-image: linear-gradient(to bottom, #A7D7F2 0, #E8F7FF 100%);
     border-color: #175E87;
 
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    margin: 0;
     font-size: 14px;
     line-height: 1.42857143;
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     background-color: #eee;
-    opacity: 1;
     height: 39px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border-width: 1px;
 }
 
-.bpbox span {
-    flex-grow: 1;
-    max-width: min-content;
-    width: 1%;
-    box-sizing: border-box;
-    vertical-align: middle;
-
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    color: #333;
-}
-
-.bpbox span button {
+.button {
     margin-left: -1px;
     background-image: linear-gradient(to bottom, #A7D7F2 0, #E8F7FF 100%);
     border-color: #175E87;
     border-width: 1px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    position: relative;
-    line-height: 1px !important;
 
-/*    Computed */
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    box-sizing: border-box;
-    font: inherit;
-    overflow: visible;
-    text-transform: none;
-    -webkit-appearance: button;
-    display: inline-block;
     padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 400;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    touch-action: manipulation;
-    cursor: pointer;
-    user-select: none;
     color: #333;
     background-color: #fff;
     box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075);
     text-shadow: 0 1px 0 #fff;
-    background-repeat: repeat-x;
-    height: 100%
 }
 
-.bpbox span button:hover {
+.button:hover {
     background-color: #e0e0e0;
     background-position: 0 -15px;
 }
 
-.bpbox span button:active{
-    /*background-color: #c2c2c2;*/
+.button:active{
     background-position: 0 -10px;
-}
-
-.bpbox span button img#clippy {
-    position: relative;
-}
-
-.bpbox span button img#tick {
-    position: relative;
-    display: none;
 }
