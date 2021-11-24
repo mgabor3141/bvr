@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { Lines } from "../components/backgrounds/Lines";
+import { Lines } from "../components/backgrounds/Lines/Lines";
 import PageWrapper from "../components/PageWrapper";
 import { Step1 } from "../components/Step1/Step1";
 

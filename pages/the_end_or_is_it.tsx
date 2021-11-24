@@ -1,14 +1,14 @@
 import type { NextPage } from "next";
-import { Minecraft } from "../components/backgrounds/Minecraft/Minecraft";
+import { Timberborn } from "../components/backgrounds/Timberborn/Timberborn";
 import PageWrapper from "../components/PageWrapper";
-import { Step2 } from "../components/Step2/Step2";
+import { Reward } from "../components/Reward/Reward";
 
 const Page: NextPage = () => (
-  <Minecraft>
+  <Timberborn>
     <PageWrapper>
-      <Step2 />
+      <Reward />
     </PageWrapper>
-  </Minecraft>
+  </Timberborn>
 );
 
 export default Page;

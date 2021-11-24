@@ -6,12 +6,16 @@ export const stepData: Record<
   { solution: string; redirectTo: string }
 > = {
   step1: {
-    solution: "123456",
+    solution: "618",
     redirectTo: "step2",
   },
   step2: {
-    solution: "654321",
+    solution: "123456",
     redirectTo: "/",
+  },
+  reward: {
+    solution: "123456",
+    redirectTo: "the_end_or_is_it",
   },
 };
 

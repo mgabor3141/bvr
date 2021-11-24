@@ -9,14 +9,22 @@
     margin: 60px 0;
     border-radius: 12px;
     background-color: rgba(3, 6, 23, 0.4);
-    width: 500px;
+    width: 410px;
     padding: 24px;
     color: #d2d2d2;
     line-height: 1.8rem;
+    text-align: justify;
 }
 
-.codeEntryContainer {
-    margin: 0;
+.reward {
+    background-color: rgba(3, 6, 23, 0.7);
+    width: 300px;
+    padding: 12px;
+    color: #d2d2d2;
+    line-height: 1.8rem;
+    text-align: center;
+    font-family: monospace;
+    font-size: 2em;
 }
 
 /* Code input styles */

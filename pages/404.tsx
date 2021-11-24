@@ -1,14 +1,14 @@
 import type { NextPage } from "next";
-import { Minecraft } from "../components/backgrounds/Minecraft/Minecraft";
+import { Black } from "../components/backgrounds/Black/Black";
 import PageWrapper from "../components/PageWrapper";
-import { Step2 } from "../components/Step2/Step2";
 
 const Page: NextPage = () => (
-  <Minecraft>
+  <Black>
     <PageWrapper>
-      <Step2 />
+      <h1>You thought you were smart, didn&apos;t you? :)</h1>
+      <p>404 btw</p>
     </PageWrapper>
-  </Minecraft>
+  </Black>
 );
 
 export default Page;

@@ -14,27 +14,20 @@ export const Step2 = () => {
   return (
     <>
       <h1 className={styles.title}>
-        Welcome to
-        <br />
         <Fade top delay={500} duration={1500}>
-          Beavermageddon
+          Oh no!
         </Fade>
       </h1>
 
       <Fade delay={1500} duration={2000}>
         <div className={styles.textBox}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          TODO Dipper and Maple are trapped etc etc you need to go to block
+          world etc etc
         </div>
       </Fade>
 
       <div className={styles.codeEntryContainer}>
-        <Fade top delay={1000} duration={1500}>
+        <Fade top delay={3500} duration={1500}>
           <HeadShake when={shake}>
             <AuthCode
               onChange={setCode}
