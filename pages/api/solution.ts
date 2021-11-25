@@ -10,8 +10,7 @@ export const stepData: Record<
     redirectTo: "step2",
   },
   step2: {
-    // TODO
-    solution: "123456",
+    solution: "PRODUCE",
     redirectTo: "it_must_grow",
   },
   factorio: {

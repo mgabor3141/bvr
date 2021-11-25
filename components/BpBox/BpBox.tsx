@@ -11,7 +11,6 @@ export const BpBox = ({ bp }: { bp: string }) => {
 
   return (
     <>
-      <Image src="/clippy.svg" width="16" height="18" alt="Copy to clipboard" />
       <div className={styles.bpbox}>
         <input className={styles.bpoutput} value={bp} readOnly />
 

@@ -1,8 +1,9 @@
 .outer {
     height: 100%;
     min-height: 100vh;
-    background-image: radial-gradient(ellipse at bottom, rgba(63, 132, 40, 0.7) 0%, rgba(3, 6, 23, 0.7) 100%),
-        url("https://mocah.org/thumbs/921023-night-Minecraft-Moon-screen-shot-PC-gaming.png");
+    background-image: radial-gradient(ellipse at bottom, rgba(40, 65, 80, 0.5) 0%, rgba(3, 6, 23, 0.5) 100%),
+        url("https://i.imgur.com/0CMjLnb.png");
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }

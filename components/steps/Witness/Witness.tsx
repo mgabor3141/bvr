@@ -21,8 +21,24 @@ export const Witness = () => {
 
       <Fade delay={1500} duration={2000}>
         <div className="textBox">
-          TODO Witness text, open puzzle in new window or embed? TEMPORARY
-          Solution 123456
+          <p>
+            Haha, yes! I knew you had it in ya! I’m picking up a promising
+            signal, but it’s a bit far away. I’ll update you when we get closer…
+          </p>
+          <p>
+            Kids, we’re moving out. Mabel, stop playing with the cat videos, and
+            Dipper… okay I guess we can wait a few more minutes while you mess
+            with Gideon’s computer.
+          </p>
+          <br />
+          <p>
+            Okay, we’re nearing the file, but it seems there’s two weird
+            geometric locks in our way. And one of them is full of triangles! I
+            don’t feel like dealing with anything that reminds me of Bill,
+            please take over.
+          </p>
+          <p>Stanford over and out.</p>
+          TODO Solution 123456
         </div>
       </Fade>
 
