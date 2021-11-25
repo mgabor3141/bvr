@@ -10,7 +10,9 @@ export const Landing = () => {
       <h1 className={styles.text}>
         <p>Just take it, and it&apos;s yours!</p>
       </h1>
-      <p>But it&apos;s dangerous to go alone. Maybe seek out some friends?</p>
+      <p>
+        But it&apos;s dangerous to go alone. Maybe seek out some friends first?
+      </p>
 
       <Fade>
         <Link href="/beavermageddon">
