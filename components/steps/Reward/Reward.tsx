@@ -28,6 +28,10 @@ export const Reward = () => {
       <Fade top delay={2000} duration={5000}>
         <div className={styles.reward}>CH3CK-UR-3M41L</div>
       </Fade>
+
+      <div className={styles.footer}>
+        &copy; 2021 &mdash; A <i>THE BOIS ( ͡° ͜ʖ ͡°)</i> production
+      </div>
     </>
   );
 };
