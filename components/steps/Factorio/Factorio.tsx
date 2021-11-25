@@ -19,7 +19,7 @@ export const Factorio = () => {
       <h1 className="title">
         <Fade top delay={500} duration={1500}>
           <div>
-            <div>The Siblings</div>
+            <div>The Twins</div>
             <div>are in another castle</div>
           </div>
         </Fade>
