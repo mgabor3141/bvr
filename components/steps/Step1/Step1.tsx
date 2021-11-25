@@ -23,8 +23,9 @@ export const Step1 = () => {
 
       <Fade delay={1500} duration={2000}>
         <div className="textBox">
-          <i>Hahahaha!</i> Your greed allowed ME to finally capture the Twins!
-          Reality is an illusion, the universe is a hologram, buy gold, bye!
+          <i>Hahahaha!</i> Your greed and gullibility allowed me to finally
+          capture the Twins! Reality is an illusion, the universe is a hologram,
+          buy gold, bye!
         </div>
       </Fade>
 
