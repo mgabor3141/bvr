@@ -1,15 +1,15 @@
 import type { NextPage } from "next";
-import { PureBlack } from "../components/backgrounds/PureBlack/PureBlack";
+import { Cipher } from "../components/backgrounds/Cipher/Cipher";
 import PageWrapper from "../components/PageWrapper";
-import { Landing } from "../components/steps/Landing/Landing";
+import { Step1 } from "../components/steps/Step1/Step1";
 
 const Home: NextPage = () => {
   return (
-    <PureBlack>
+    <Cipher>
       <PageWrapper>
-        <Landing />
+        <Step1 />
       </PageWrapper>
-    </PureBlack>
+    </Cipher>
   );
 };
 

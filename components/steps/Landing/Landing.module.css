@@ -1,0 +1,16 @@
+.text {
+    margin: 0;
+    font-size: 2em;
+    text-align: center;
+    font-weight: normal;
+}
+
+.text p {
+    margin: 10px 0;
+}
+
+.coinContainer {
+    display: block;
+    margin: 40px 0;
+}
+
