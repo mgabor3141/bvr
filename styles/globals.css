@@ -41,6 +41,21 @@ a {
   background-attachment: fixed;
 }
 
+.codeContainer {
+  padding: 16px;
+}
+
+.codeInput {
+  width: 2.5ch;
+  padding:  8px 2px;
+  border-radius: 8px;
+  font-size: 40px;
+  text-align: center;
+  margin-right: 8px;
+  border: 1px solid gray;
+}
+
+
 @media (max-width: 600px) {
   .title {
     font-size: 3rem;

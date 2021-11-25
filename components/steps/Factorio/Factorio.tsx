@@ -47,8 +47,8 @@ export const Factorio = () => {
             <AuthCode
               onChange={setCode}
               characters={SOLUTION_LENGTH}
-              containerClassName={styles.container}
-              inputClassName={styles.input}
+              containerClassName="codeContainer"
+              inputClassName="codeInput"
             />
           </HeadShake>
         </Fade>
