@@ -29,12 +29,12 @@ export const Hacking = () => {
             However, we did come across a (Mabel compels me to add, an
             incredibly cute) wanderer, who told stories of his homeland. A giant
             structure, <i>teethmade</i> from timber, a marvelous feat of
-            engineering. At least it was, until what sounds suspiciously like
-            Bill came along. Ever since then, they’ve been unable to progress,
-            it seems Bill locked away something integral to their knowledge.
-            Many of them set out among this vast landscape to find a solution,
-            and we might just be able to help them &mdash; and maybe even
-            ourselves at the same time.
+            engineering. At least it was, until &quot;some yellow triangle
+            guy&quot; came along. Must have been Bill. Ever since then, they’ve
+            been unable to progress, it seems Bill locked away something
+            integral to their knowledge. Many of them set out across this vast
+            landscape to find a solution, and we might just be able to help them
+            &mdash; and maybe even ourselves at the same time.
           </p>
           <p>
             However, he’s been travelling for months now, and his homeland is
