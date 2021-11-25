@@ -1,3 +1,4 @@
+import {createDecipheriv} from "crypto";
 import AuthCode from "react-auth-code-input";
 // @ts-expect-error no types
 import Fade from "react-reveal/Fade";
@@ -14,11 +15,10 @@ export const Witness = () => {
   return (
     <>
       <h1 className="title">
-        <Fade top delay={500} duration={1500}>
+        <Fade top_delay={500} duration={1500}>
           Bear Witness
         </Fade>
       </h1>
-
       <Fade delay={1500} duration={2000}>
         <div className="textBox">
           <p>
@@ -38,22 +38,12 @@ export const Witness = () => {
             please take over.
           </p>
           <p>Stanford over and out.</p>
-          TODO Solution 123456
         </div>
       </Fade>
 
-      <div className={styles.codeEntryContainer}>
-        <Fade top delay={3500} duration={1500}>
-          <HeadShake when={shake}>
-            <AuthCode
-              onChange={setCode}
-              characters={SOLUTION_LENGTH}
-              containerClassName="codeContainer"
-              inputClassName="codeInput"
-            />
-          </HeadShake>
-        </Fade>
-      </div>
+      <Fade delay={3500} duration={2000}>
+      <iframe src="https://opbeav.vercel.app/main.html#CAsSAigKEgIIBBICKAMSBAgLMAMSAigZEgQICzADEgIoExIjCAkiHwgFEhkBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBGAESAigTEgQICzADEgIoBRIECAswAhICKAMSAggDEgIoHg==_0" allowtransparency="true" width="650px" frameborder="0" height="650px"></iframe>
+    </Fade>
     </>
   );
 };
