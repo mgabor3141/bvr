@@ -36,13 +36,17 @@ export default function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-  if (!Object.keys(stepData).includes(req.query.stepName as string))
+  if (
+    typeof req.query.code !== "string" ||
+    !Object.keys(stepData).includes(req.query.stepName as string)
+  )
     res.status(418).send({});
   else {
     const { solution, redirectTo } =
       stepData[req.query.stepName as keyof typeof stepData];
 
-    if (req.query.code === solution) res.status(200).json({ redirectTo });
+    if (req.query.code.toLowerCase() === solution.toLowerCase())
+      res.status(200).json({ redirectTo });
     else res.status(418).send({});
   }
 }
