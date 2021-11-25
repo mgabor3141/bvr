@@ -10,11 +10,17 @@ export const stepData: Record<
     redirectTo: "step2",
   },
   step2: {
+    // TODO
     solution: "123456",
     redirectTo: "it_must_grow",
   },
   factorio: {
     solution: "7355608",
+    redirectTo: "bear_witness",
+  },
+  witness: {
+    // TODO
+    solution: "123456",
     redirectTo: "CVE_2021_22555",
   },
   hacking: {
