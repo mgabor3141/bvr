@@ -17,11 +17,10 @@ export const stepData: Record<
     solution: "7355608",
     redirectTo: "bear_witness",
   },
-  witness: {
-    // TODO
-    solution: "123456",
-    redirectTo: "CVE_2021_22555",
-  },
+  // witness: {
+  //   solution: "123456",
+  //   redirectTo: "CVE_2021_22555",
+  // },
   hacking: {
     solution: "iameternal",
     redirectTo: "the_end_or_is_it",

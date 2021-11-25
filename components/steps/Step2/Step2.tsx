@@ -24,12 +24,13 @@ export const Step2 = () => {
           <p>Soos?! Anyone? Hello??</p>
           <p>
             Is there anyone out there? Heyooo? Anyway, if you’re reading this,
-            could you pleeease consider helping us? We were just hanging around,
-            and out of nowhere the portal started acting up, and then suddenly
-            everything everything went REAAAAAALLY blocky… Like you can’t
-            believe the cuboidness. Toootally blockular! And then the portal
-            started sucking us in, and there were bright lights everywhere and
-            whiissh whoosh, now we’re all just floating around in here and…
+            could you pleaaaase consider helping us? We were just hanging
+            around, and out of nowhere the portal started acting up, and then
+            suddenly everything everything went REAAAAAALLY blocky… Like you
+            can’t believe the cuboidness. Toootally blockular! And then the
+            portal started sucking us in, and there were bright lights
+            everywhere and whiissh whoosh, now we’re all just floating around in
+            here and…
           </p>
           <p>- Mabel, give me that thing!</p>
           <p>

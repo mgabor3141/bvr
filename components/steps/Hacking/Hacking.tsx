@@ -22,23 +22,32 @@ export const Hacking = () => {
       <Fade delay={1500} duration={2000}>
         <div className="textBox">
           <p>
-            DANG IT! So close, yet so far away. We honed in on the signal I
-            picked up, but it seems we only ended up at a false signal repeat...
+            Drats! So close, yet so far away. We honed in on the signal I picked
+            up, but it seems we only ended up at a false bounce…
           </p>
           <p>
             However, we did come across a (Mabel compels me to add, an
-            incredibly cute) wanderer, who told stories of his home. A giant
-            structure, handmade from timber, a marvelous feat of enginnering,
-            and at it’s core, a file, just like the one we need!
+            incredibly cute) wanderer, who told stories of his homeland. A giant
+            structure, <i>teethmade</i> from timber, a marvelous feat of
+            engineering. At least it was, until what sounds suspiciously like
+            Bill came along. Ever since then, they’ve been unable to progress,
+            it seems Bill locked away something integral to their knowledge.
+            Many of them set out among this vast landscape to find a solution,
+            and we might just be able to help them &mdash; and maybe even
+            ourselves at the same time.
           </p>
           <p>
             However, he’s been travelling for months now, and his homeland is
             unimaginably far… We don’t have months to spend on travelling… He
-            did give us the adress though, maybe you can find a quicker way
+            did give us the address though, maybe you can find a quicker way
             there?
           </p>
           <p>
-            <code className={styles.code}>beaver@46.101.226.232</code>
+            <code className={styles.code}>
+              beaver@46.101.226.232
+              <br />
+              passphrase: beaver
+            </code>
           </p>
         </div>
       </Fade>

@@ -28,7 +28,7 @@ export const Factorio = () => {
       <Fade delay={1500} duration={2000}>
         <div className="textBox">
           <p>
-            Aha! Succe-{" "}
+            Aha! Succe&mdash;{" "}
             <i>
               <b>MABEL GET DOWN!</b>
             </i>

@@ -14,9 +14,16 @@ export const Reward = () => {
       <Fade delay={1500} duration={2000}>
         <div className="textBox">
           <p style={{ marginTop: 0 }}>
-            Mankind turned Earth into a dry wasteland and perished, but some
-            species adapted and evolved.
+            YES! You did it, the file is now unlocked! Oh man! These beavers are
+            going crazy, they are just buzzing with activity! They seem to be
+            progressing at a breakneck speed! Sadly, I can’t quite find anything
+            in here that would help us get out, but maybe… If we stay here for a
+            while… With a bit of guidance, I’m sure these beavers could achieve
+            technological levels they never even dreamt of! That could be our
+            way out, and either way, Dipper and Mabel seem to enjoy their
+            company quite a lot.
           </p>
+          <p>So what do you say, partner? Are you up for the challenge?</p>
           <p
             style={{ textAlign: "right", fontStyle: "italic", marginBottom: 0 }}
           >
@@ -29,9 +36,11 @@ export const Reward = () => {
         <div className={styles.reward}>CH3CK-UR-3M41L</div>
       </Fade>
 
-      <div className={styles.footer}>
-        &copy; 2021 &mdash; A <i>THE BOIS ( ͡° ͜ʖ ͡°)</i> production
-      </div>
+      <Fade delay={5000} duration={2000}>
+        <div className={styles.footer}>
+          &copy; 2021-11-25 &mdash; A <i>THE BOIS ( ͡° ͜ʖ ͡°)</i> production
+        </div>
+      </Fade>
     </>
   );
 };
