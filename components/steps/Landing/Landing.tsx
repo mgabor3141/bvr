@@ -8,7 +8,7 @@ export const Landing = () => {
   return (
     <>
       <h1 className={styles.text}>
-        <p>Just take it, and it&apos;s yours!</p>
+        <p>Just take it and it&apos;s yours!</p>
       </h1>
       <p style={{ textAlign: "center" }}>
         But it&apos;s dangerous to go alone. Maybe seek out some friends first?
