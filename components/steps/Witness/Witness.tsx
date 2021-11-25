@@ -41,8 +41,8 @@ export const Witness = () => {
         </div>
       </Fade>
 
-      <Fade delay={3500} duration={2000}>
-      <iframe src="https://opbeav.vercel.app/main.html#CAsSAigKEgIIBBICKAMSBAgLMAMSAigZEgQICzADEgIoExIjCAkiHwgFEhkBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBGAESAigTEgQICzADEgIoBRIECAswAhICKAMSAggDEgIoHg==_0" allowtransparency="true" width="650px" frameborder="0" height="650px"></iframe>
+     <Fade delay={3500} duration={2000}>
+      <iframe src="https://opbeav.vercel.app/main.html#CAsSAigKEgIIBBICKAMSBAgLMAMSAigZEgQICzADEgIoExIjCAkiHwgFEhkBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBGAESAigTEgQICzADEgIoBRIECAswAhICKAMSAggDEgIoHg==_0" width="650px" frameBorder="0" height="650px"></iframe>
     </Fade>
     </>
   );
