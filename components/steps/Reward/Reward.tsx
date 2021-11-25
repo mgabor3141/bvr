@@ -13,8 +13,11 @@ export const Reward = () => {
 
       <Fade delay={1500} duration={2000}>
         <div className="textBox">
-          Mankind turned Earth into a dry wasteland and perished, but some
-          species adapted and evolved.
+          <p>
+            Mankind turned Earth into a dry wasteland and perished, but some
+            species adapted and evolved.
+          </p>
+          <p>Sok szeretettel: Jani, Kristóf, Máté, Gábor</p>
         </div>
       </Fade>
 

@@ -21,7 +21,8 @@ export const Witness = () => {
 
       <Fade delay={1500} duration={2000}>
         <div className="textBox">
-          TODO Witness text TEMPORARY Solution 123456
+          TODO Witness text, open puzzle in new window or embed? TEMPORARY
+          Solution 123456
         </div>
       </Fade>
 
