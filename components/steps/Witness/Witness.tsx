@@ -1,3 +1,4 @@
+import {createDecipheriv} from "crypto";
 import AuthCode from "react-auth-code-input";
 // @ts-expect-error no types
 import Fade from "react-reveal/Fade";
@@ -14,46 +15,11 @@ export const Witness = () => {
   return (
     <>
       <h1 className="title">
-        <Fade top delay={500} duration={1500}>
+        <Fade top_delay={500} duration={1500}>
           Bear Witness
         </Fade>
       </h1>
-
-      <Fade delay={1500} duration={2000}>
-        <div className="textBox">
-          <p>
-            Haha, yes! I knew you had it in ya! I’m picking up a promising
-            signal, but it’s a bit far away. I’ll update you when we get closer…
-          </p>
-          <p>
-            Kids, we’re moving out. Mabel, stop playing with the cat videos, and
-            Dipper… okay I guess we can wait a few more minutes while you mess
-            with Gideon’s computer.
-          </p>
-          <br />
-          <p>
-            Okay, we’re nearing the file, but it seems there’s two weird
-            geometric locks in our way. And one of them is full of triangles! I
-            don’t feel like dealing with anything that reminds me of Bill,
-            please take over.
-          </p>
-          <p>Stanford over and out.</p>
-          TODO Solution 123456
-        </div>
-      </Fade>
-
-      <div className={styles.codeEntryContainer}>
-        <Fade top delay={3500} duration={1500}>
-          <HeadShake when={shake}>
-            <AuthCode
-              onChange={setCode}
-              characters={SOLUTION_LENGTH}
-              containerClassName={styles.container}
-              inputClassName={styles.input}
-            />
-          </HeadShake>
-        </Fade>
-      </div>
+      <iframe src="https://opbeav.vercel.app/main.html#CAsSAigEEgIIBBIAEgIIBBICKAUSAggKEgIIBhICKBESAggGEgIoBBICCAoSAigXEgIIChICKAQSAggGEgIoAxICCAYSAigOEgIIChICKAQSAggGEgIoEhICCAoSAigFEgIIAxIAEgIIAxICKAQYAg==_0" allowtransparency="true" width="650px" frameborder="0" height="650px"></iframe>
     </>
   );
 };
