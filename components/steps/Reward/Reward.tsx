@@ -13,16 +13,20 @@ export const Reward = () => {
 
       <Fade delay={1500} duration={2000}>
         <div className="textBox">
-          <p>
+          <p style={{ marginTop: 0 }}>
             Mankind turned Earth into a dry wasteland and perished, but some
             species adapted and evolved.
           </p>
-          <p>Sok szeretettel: Jani, Kristóf, Máté, Gábor</p>
+          <p
+            style={{ textAlign: "right", fontStyle: "italic", marginBottom: 0 }}
+          >
+            Sok szeretettel: Jani, Kristóf, Máté, Gábor
+          </p>
         </div>
       </Fade>
 
       <Fade top delay={2000} duration={5000}>
-        <div className={styles.reward}>TODO-E751H-F9MLF</div>
+        <div className={styles.reward}>CH3CK-UR-3M41L</div>
       </Fade>
     </>
   );
