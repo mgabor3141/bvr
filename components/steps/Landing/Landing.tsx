@@ -19,6 +19,7 @@ export const Landing = () => {
               src="https://i0.wp.com/harry-wright.com/wp-content/uploads/2017/12/rotating-bitcoin_orig-1.gif"
               width="200"
               height="200"
+              alt="Coin"
             />
           </a>
         </Link>
