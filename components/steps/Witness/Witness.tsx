@@ -20,17 +20,16 @@ export const Witness = () => {
             Dipper&mdash; okay I guess we can wait a few more minutes while you
             mess with Gideon’s computer.
           </p>
-          <br />
           <p>
-            Okay, we’re nearing the file, but it seems there’s two weird
-            geometric locks in our way. Surely the work of Bill. It’s unlike
-            anything I’ve ever seen before, please take over.
+            We’re nearing the file, but it seems there’s two weird geometric
+            locks in our way. Surely the work of Bill. It’s unlike anything I’ve
+            ever seen before, please take over.
           </p>
           <p>Stanford over and out.</p>
         </div>
       </Fade>
 
-      <Fade delay={3500} duration={2000}>
+      <Fade delay={4000} duration={2000}>
         <iframe
           src="https://opbeav.vercel.app/main.html#CAsSAigKEgIIBBICKAMSBAgLMAMSAigZEgQICzADEgIoExIjCAkiHwgFEhkBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBGAESAigTEgQICzADEgIoBRIECAswAhICKAMSAggDEgIoHg==_0"
           width="650px"

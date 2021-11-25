@@ -30,17 +30,17 @@ export const Step2 = () => {
             can’t believe the cuboidness. Toootally blockular! And then the
             portal started sucking us in, and there were bright lights
             everywhere and whiissh whoosh, now we’re all just floating around in
-            here and…
+            here and&mdash;
           </p>
-          <p>- Mabel, give me that thing!</p>
+          <p>&mdash; Mabel, give me that thing!</p>
           <p>
-            - This is Stanford Filibrick Pines, Paranormal investigator and
+            This is Stanford Filibrick Pines, Paranormal investigator and
             Interdimensional Outlaw. We are currently stuck in an
             interdimensional Para-Technological anomaly called “The Internet”.
             We’re anchored at sp**d***u***o*.
           </p>
           <p>
-            - I’m los*** conn*cti*n to th*s terminal. I c*n see Stan’s Print*r
+            I’m los*** conn*cti*n to th*s terminal. I c*n see Stan’s Print*r
             nearby. Fin* us th*re
           </p>
         </div>
