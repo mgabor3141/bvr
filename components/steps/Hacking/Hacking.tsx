@@ -38,9 +38,8 @@ export const Hacking = () => {
             there?
           </p>
           <p>
-            <code>beaver@46.101.226.232</code>
+            <code className={styles.code}>beaver@46.101.226.232</code>
           </p>
-          <p>TODO Solution iameternal</p>
         </div>
       </Fade>
 
