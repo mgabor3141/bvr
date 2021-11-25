@@ -41,8 +41,8 @@ export const Factorio = () => {
               Whew… That was a massive wall of text coming our way at breakneck
               speed. Barely had time to dodge it. I know this somehow leads us
               closer to freedom, but I have no idea what to do with it… You seem
-              like a smart guy, I’m sure you can solve this. We’ll wait here
-              until you’re ready.
+              like a smart guy, I’m sure you can figure this out. We’ll wait
+              here until you’re ready.
             </p>
             <p>Stanford out.</p>
           </Fade>
