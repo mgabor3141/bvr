@@ -37,11 +37,11 @@ export const Step2 = () => {
             This is Stanford Filibrick Pines, Paranormal investigator and
             Interdimensional Outlaw. We are currently stuck in an
             interdimensional Para-Technological anomaly called “The Internet”.
-            We’re anchored at sp**d***u***o*.
+            We’re anchored at sp##d###u###o#.
           </p>
           <p>
-            I’m los*** conn*cti*n to th*s terminal. I c*n see Stan’s Print*r
-            nearby. Fin* us th*re
+            I’m los### conn#cti#n to th#s terminal. I c#n see Stan’s Print#r
+            nearby. Fin# us th#re
           </p>
         </div>
       </Fade>
