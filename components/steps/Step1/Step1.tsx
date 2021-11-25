@@ -13,7 +13,7 @@ export const Step1 = () => {
 
   return (
     <>
-      <h1 className={styles.title}>
+      <h1 className="title">
         Welcome to
         <br />
         <Fade top delay={500} duration={1500}>
@@ -22,7 +22,7 @@ export const Step1 = () => {
       </h1>
 
       <Fade delay={1500} duration={2000}>
-        <div className={styles.textBox}>
+        <div className="textBox">
           Remember! Reality is an illusion, the universe is a hologram, buy
           gold, bye!
         </div>

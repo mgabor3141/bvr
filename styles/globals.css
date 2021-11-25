@@ -15,3 +15,33 @@ a {
 * {
   box-sizing: border-box;
 }
+
+/* Custom styles */
+.title {
+  margin: 0;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.textBox {
+  margin: 60px 0;
+  border-radius: 12px;
+  background-color: rgba(3, 6, 23, 0.4);
+  max-width: 500px;
+  padding: 24px;
+  color: #d2d2d2;
+  line-height: 1.8rem;
+  text-align: justify;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .title {
+    font-size: 2rem;
+  }
+}

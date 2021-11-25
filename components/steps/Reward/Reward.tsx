@@ -5,14 +5,14 @@ import styles from "./Reward.module.css";
 export const Reward = () => {
   return (
     <>
-      <h1 className={styles.title}>
+      <h1 className="title">
         <Fade top delay={500} duration={1500}>
           🎉 Boldog születésnapot! 🎉
         </Fade>
       </h1>
 
       <Fade delay={1500} duration={2000}>
-        <div className={styles.textBox}>
+        <div className="textBox">
           Mankind turned Earth into a dry wasteland and perished, but some
           species adapted and evolved.
         </div>

@@ -13,14 +13,14 @@ export const Step2 = () => {
 
   return (
     <>
-      <h1 className={styles.title}>
+      <h1 className="title">
         <Fade top delay={500} duration={1500}>
           Oh no!
         </Fade>
       </h1>
 
       <Fade delay={1500} duration={2000}>
-        <div className={styles.textBox}>
+        <div className="textBox">
           TODO Dipper and Maple are trapped etc etc you need to go to block
           TEMPORARY Solution 123456 world etc etc
         </div>
