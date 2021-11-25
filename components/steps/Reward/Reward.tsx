@@ -19,7 +19,7 @@ export const Reward = () => {
       </Fade>
 
       <Fade top delay={2000} duration={5000}>
-        <div className={styles.reward}>FSWIN-E751H-F9MLF</div>
+        <div className={styles.reward}>TODO-E751H-F9MLF</div>
       </Fade>
     </>
   );

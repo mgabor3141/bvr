@@ -3,6 +3,6 @@ import styles from "./Timberborn.module.css";
 
 export const Timberborn = ({ children }: PropsWithChildren<{}>) => (
   <div className={styles.image}>
-    <div className={styles.linesInner}>{children}</div>
+    <div className="lines">{children}</div>
   </div>
 );
