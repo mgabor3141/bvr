@@ -23,12 +23,13 @@ export const Step1 = () => {
 
       <Fade delay={1500} duration={2000}>
         <div className={styles.textBox}>
-          TODO Gravity Falls Placeholder Text Solution: 618
+          Remember! Reality is an illusion, the universe is a hologram, buy
+          gold, bye!
         </div>
       </Fade>
 
       <div className={styles.codeEntryContainer}>
-        <Fade top delay={5000} duration={3000}>
+        <Fade top delay={3000} duration={3000}>
           <HeadShake when={shake}>
             <AuthCode
               onChange={setCode}

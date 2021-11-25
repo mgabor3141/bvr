@@ -27,7 +27,7 @@ export const Step2 = () => {
       </Fade>
 
       <div className={styles.codeEntryContainer}>
-        <Fade top delay={3500} duration={1500}>
+        <Fade top delay={3000} duration={3000}>
           <HeadShake when={shake}>
             <AuthCode
               onChange={setCode}

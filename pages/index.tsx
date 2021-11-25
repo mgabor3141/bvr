@@ -1,15 +1,15 @@
 import type { NextPage } from "next";
-import { Lines } from "../components/backgrounds/Lines/Lines";
+import { Cipher } from "../components/backgrounds/Cipher/Cipher";
 import PageWrapper from "../components/PageWrapper";
 import { Step1 } from "../components/steps/Step1/Step1";
 
 const Home: NextPage = () => {
   return (
-    <Lines>
+    <Cipher>
       <PageWrapper>
         <Step1 />
       </PageWrapper>
-    </Lines>
+    </Cipher>
   );
 };
 

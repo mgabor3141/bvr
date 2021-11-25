@@ -4,6 +4,7 @@
     background-image: radial-gradient(ellipse at bottom, rgba(63, 132, 40, 0.7) 0%, rgba(3, 6, 23, 0.7) 100%),
         url("https://mocah.org/thumbs/921023-night-Minecraft-Moon-screen-shot-PC-gaming.png");
     background-size: cover;
+    background-position: center;
 }
 
 .linesInner {
